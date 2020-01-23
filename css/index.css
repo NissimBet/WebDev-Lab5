@@ -16,6 +16,16 @@ main {
   margin: 50px auto;
 }
 
+input,
+.submitSearch {
+  padding: 5px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .title {
   display: flex;
   flex-direction: column;
@@ -51,6 +61,6 @@ main {
   color: inherit;
 }
 
-.results a {
-  text-decoration: none;
+#videoNameForm {
+  margin: 20px 0 10px 0;
 }
