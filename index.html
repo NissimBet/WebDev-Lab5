@@ -10,25 +10,23 @@
 
   <body>
     <main>
-      <h1>Youtube</h1>
+      <div class="title">
+        <h1>Youtube</h1>
 
-      <form action="#" id="videoNameForm">
-        <label for="videoNameInput">Search for a video</label>
-        <input type="text" name="videoName" id="videoNameInput" placeholder="Misfits" />
-        <button type="submit">Search</button>
-      </form>
+        <form action="#" id="videoNameForm">
+          <label for="videoNameInput">Search for a video</label>
+          <input type="text" name="videoName" id="videoNameInput" placeholder="Misfits" />
+          <button type="submit">Search</button>
+        </form>
+
+        <div>
+          <button class="buttons" id="prevButton">prev</button>
+          <button class="buttons" id="nextButton">next</button>
+        </div>
+      </div>
 
       <div class="results"></div>
-
-      <div>
-        <button class="buttons" id="prevButton">prev</button>
-        <button class="buttons" id="nextButton">next</button>
-      </div>
     </main>
-    <!-- 
-    YT API key
-AIzaSyD1aaESjRiQly6Tys-0XSFaW6IUx058OQ4
- -->
 
     <script src="./js/index.js"></script>
   </body>

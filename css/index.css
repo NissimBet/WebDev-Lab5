@@ -6,7 +6,8 @@
 
 body {
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
   min-height: 100vh;
 }
 
@@ -15,11 +16,19 @@ main {
   margin: 50px auto;
 }
 
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .buttons {
   padding: 5px 10px;
   font-size: 17px;
   cursor: pointer;
-  background-color: #aa6767;
+  background-color: #ee3434;
+  color: white;
   border: none;
   border-radius: 5px;
   margin-top: 10px;
